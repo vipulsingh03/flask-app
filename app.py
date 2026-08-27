@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def home():
-	return "Hello from GitHub Actions CI/CD Project"
+	return "Version 2 is Auto deployed in GitHub Actions and running in Docker container"
 
 
 if __name__ == "__main__":
